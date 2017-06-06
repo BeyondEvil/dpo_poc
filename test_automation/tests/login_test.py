@@ -4,7 +4,7 @@ from test_automation.page_objects.login_page import LoginPage
 
 pytestmark = pytest.mark.tags("login")
 
-module_setup_data = [{'User': [{'name': 'Jim', 'email': 'jimbrannlund@fastmail.com'}]}]
+module_setup_data = [{'User': [{'name': 'Jim', 'email': 'myemail@mail.com'}]}]
 
 
 def test_successful_login(test_db, driver):

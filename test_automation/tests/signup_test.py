@@ -11,7 +11,7 @@ def test_signup_trial(driver):
         go_to_page().\
         enter_name('Jim', 'Brannlund').\
         enter_company('MyOwn').\
-        enter_email('jimbrannlund@fastmail.com').\
+        enter_email('myemail@mail.com').\
         select_country('Sweden').\
         enter_phone('+46707696100').\
         check_privacy_policy().\
