@@ -13,7 +13,7 @@ def test_signup_trial(driver):
         enter_company('MyOwn').\
         enter_email('myemail@mail.com').\
         select_country('Sweden').\
-        enter_phone('+46707696100').\
+        enter_phone('+460000000').\
         check_privacy_policy().\
         signup().\
         verify_signup_successful()
