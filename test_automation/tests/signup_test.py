@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
+import pytest
 from test_automation.page_objects.signup_page import SignupPage
 
+pytestmark = pytest.mark.tags("signup")
 
+
+@pytest.mark.tags("trial", "not chrome")
 def test_signup_trial(driver):
     SignupPage(driver).\
         go_to_page().\

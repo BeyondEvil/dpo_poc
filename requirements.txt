@@ -1,0 +1,6 @@
+assertpy
+basepage
+pytest-selenium
+requests
+git+https://github.com/Projectplace/pytest-tags
+git+https://github.com/Projectplace/pytest-setup
